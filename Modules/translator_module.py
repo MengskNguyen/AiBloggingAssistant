@@ -1,10 +1,7 @@
-# from dotenv import load_dotenv
 from langchain.prompts import ChatPromptTemplate
 from langchain.schema.output_parser import StrOutputParser
 from langchain_openai import ChatOpenAI
 from dataclasses import dataclass
-
-# load_dotenv()
 
 
 @dataclass
