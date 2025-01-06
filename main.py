@@ -1,11 +1,11 @@
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import streamlit as st
 
 from Modules.generate_blog_module import create_generate_blog_chain
 from Modules.generate_img_module import create_img_module
 from Modules.translator_module import translator_module
 
-load_dotenv()
+# load_dotenv()
 
 # Streamlit State
 if "disable" not in st.session_state:
