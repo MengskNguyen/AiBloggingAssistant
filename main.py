@@ -11,7 +11,7 @@ if "disable" not in st.session_state:
 # Front end layout
 st.set_page_config(layout="wide")
 
-st.title(":robot_face: Blogging Assistant: Your AI Writing Companion")
+st.title("Blogging Assistant: Your AI Writing Companion")
 st.subheader("Craft perfect blogs with the help of AI powered by GPT-4o")
 
 with st.sidebar:
